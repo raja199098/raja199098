@@ -1,0 +1,129 @@
+/* @media  screen  and (max-width:674px)  {
+    
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media  screen  and (max-width:630px)  {
+  
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+} */
+.main-content{
+    
+    
+    height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    
+    grid-template-columns: 300px 700px;
+   
+    
+}
+/* .left-section :start=================> */
+.left-section{
+    color: white;
+    background-color:black;
+    padding: 1rem;
+}
+.left-section .Pofile-image{
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+
+
+
+
+}
+ .name{
+ 
+    font-size: 1.2rem;
+    font-weight: 1.2rem;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    
+    letter-spacing: 0.02px ;
+    padding: 0.8rem;
+    
+}
+.designation{
+   
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+
+}
+.description{
+    
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+ a{
+    text-decoration: none;
+    
+}
+.social-media{
+    list-style: none;
+   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.personal-details{
+    margin-top: 2rem;
+    list-style: none;
+    
+}
+.icon{
+    padding: 1rem;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1rem  0.5rem 1rem 0.5rem ;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px white solid;
+    border-radius: 10rem;
+    background-color: white;
+    height: 4px;
+
+}
+ /* .left-section :start=================> */ 
+
+.right-section{
+    background-color: wheat;
+}
+
+.right-main-content{
+    padding: 2rem 3rem  2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+
+}
